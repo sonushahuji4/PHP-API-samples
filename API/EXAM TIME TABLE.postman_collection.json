@@ -1,0 +1,301 @@
+{
+	"info": {
+		"_postman_id": "5bf8b38f-70e1-4494-8f18-e8ccdd1f4df3",
+		"name": "EXAM TIME TABLE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/IP_project/IP_project/API/addclassroom.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "class_name",
+							"value": "A123",
+							"type": "text"
+						},
+						{
+							"key": "capacity",
+							"value": "20",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/IP_project/IP_project/API/addclassroom.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IP_project",
+						"IP_project",
+						"API",
+						"addclassroom.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IP_project/IP_project/API/addteacher.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "ghyan",
+							"type": "text"
+						},
+						{
+							"key": "department",
+							"value": "com",
+							"type": "text"
+						},
+						{
+							"key": "pos",
+							"value": "HR",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/IP_project/IP_project/API/addteacher.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IP_project",
+						"IP_project",
+						"API",
+						"addteacher.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IP_project/IP_project/API/addexamdate.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "exam_date",
+							"value": "2018-10-04",
+							"type": "text"
+						},
+						{
+							"key": "subject",
+							"value": "ED",
+							"type": "text"
+						},
+						{
+							"key": "time_start",
+							"value": "2018-10-04 09:00:00",
+							"type": "text"
+						},
+						{
+							"key": "time_ends",
+							"value": "2018-10-04 11:00:00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/IP_project/IP_project/API/addexamdate.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IP_project",
+						"IP_project",
+						"API",
+						"addexamdate.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IP_project/IP_project/API/getlistofteachernotassigned.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/IP_project/IP_project/API/getlistofteachernotassigned.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IP_project",
+						"IP_project",
+						"API",
+						"getlistofteachernotassigned.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IP_project/IP_project/API/getlistofclassroomnotassigned.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/IP_project/IP_project/API/getlistofclassroomnotassigned.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IP_project",
+						"IP_project",
+						"API",
+						"getlistofclassroomnotassigned.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IP_project/IP_project/API/assignclassandteacher.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "date_id",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "class_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "teacher_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/IP_project/IP_project/API/assignclassandteacher.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IP_project",
+						"IP_project",
+						"API",
+						"assignclassandteacher.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IP_project/IP_project/API/resetallteacherandclasscounter.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/IP_project/IP_project/API/resetallteacherandclasscounter.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IP_project",
+						"IP_project",
+						"API",
+						"resetallteacherandclasscounter.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IP_project/IP_project/API/resetclassroomcounter.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "class_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/IP_project/IP_project/API/resetclassroomcounter.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IP_project",
+						"IP_project",
+						"API",
+						"resetclassroomcounter.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IP_project/IP_project/API/resetteachercounter.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "teacher_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/IP_project/IP_project/API/resetteachercounter.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IP_project",
+						"IP_project",
+						"API",
+						"resetteachercounter.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
